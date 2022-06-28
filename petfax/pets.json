@@ -1,0 +1,23 @@
+[
+    {
+        "pet_id": 1,
+        "pet_age": 99,
+        "pet_name": "Justice",
+        "pet_photo": "http://placedog.net/240/240",
+        "pet_fact": "A dog's nose print is unique, much like a person's fingerprint"
+    },
+    {
+        "pet_id": 2,
+        "pet_age": 1001,
+        "pet_name": "Journey",
+        "pet_photo": "http://placedog.net/200/200",
+        "pet_fact": "Journey was not named after the band!"
+    },
+    {
+        "pet_id": 3,
+        "pet_age": 2,
+        "pet_name": "Avatar",
+        "pet_photo": "http://placekitten.com/240/240",
+        "pet_fact": "Some cats are ambidextrous, but 40% are either left- or right-pawed"
+    }
+]

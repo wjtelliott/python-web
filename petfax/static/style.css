@@ -1,0 +1,134 @@
+h1 {
+    padding: .5em;
+    margin: 1em auto;
+    background-color: aqua;
+    color: black;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    width: 75%;
+    font-size: 2.5em;
+}
+
+.pet-details {
+    margin: 3em auto;
+    padding: 1em;
+    background-color: bisque;
+    box-shadow: 3px 3px 3px black;
+    width: 40%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.pet-details h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.pet-details img {
+    margin: 0 auto;
+    border-radius: 20px 40px 20px 40px;
+}
+
+img {
+    width: 75%;
+    border-radius: 20px 40px 20px 40px;
+}
+
+a {
+    text-decoration: none;
+    color:crimson;
+    text-shadow: 3px 1px 9px black;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 1.25em;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#container {
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 20px 20px 20px 20px;
+    padding: 1em;
+}
+
+body {
+    background-color: beige;
+}
+
+#details {
+    width: 60vw;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#details h2 {
+    background-color: aqua;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 20px 20px 20px 20px;
+    padding: .5em;
+    text-align: center;
+    margin: 2em auto;
+    width: 65%;
+    font-size: 2em;
+}
+
+#details img {
+    margin:  0 auto;
+    box-shadow: 8px 8px 8px black;
+}
+
+#details h3 {
+    width: 90%;
+    min-height: 15vh;
+    color: black;
+    background-color: khaki;
+    padding: 1em;
+    text-align: left;
+    margin: 2em auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+form {
+    background-color: khaki;
+    margin: 0 auto;
+    padding: 1.5em;
+    width: 55vw;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+form .form-group {
+    margin: .25em auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+form input[type='submit'] {
+    margin: 0 42%;
+    text-align: center;
+    font-size: 1.25em;
+    padding: .25em .5em;
+    border-radius: 20px 20px 20px 20px;
+}
+
+form label {
+    font-size: 1.25em;
+}
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
+}
