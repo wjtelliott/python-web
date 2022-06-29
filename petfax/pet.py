@@ -9,11 +9,11 @@ pets = json.load(open(file))
 
 @bp.route('/')
 def index():
-    return render_template('index.html', pets=pets)
+    return render_template('/pets/index.html', pets=pets)
 
 @bp.route('/<index>')
 def show_page(index):
     for i in pets:
         if str(i["pet_id"]) == index:
-            return render_template('pet_details.html', pet=i)
+            return render_template('/pets/show.html', pet=i)
     return render_template('404.html')
